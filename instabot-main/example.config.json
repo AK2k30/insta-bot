@@ -1,0 +1,65 @@
+{
+  "accounts": [
+    {
+      "username": "username",
+      "password": "password",
+      "request_timeout": 1,
+      "use_proxy": false,
+      "follow_users": {
+        "enabled": true,
+        "follows_per_day": 20,
+        "source_account": "instagram",
+        "engagement": {
+          "like_recent_posts": true,
+          "like_count": 3
+        }
+      },
+      "unfollow_users": {
+        "enabled": true,
+        "unfollow_after": "0-12-0-0"
+      },
+      "comment_on_media": {
+        "enabled": true,
+        "comment_on_tag": "instagram",
+        "amount_per_day": 50,
+        "comments": [
+          "Comments ..."
+        ]
+      },
+      "upload_posts": {
+        "enabled": true,
+        "amount_per_day": 3,
+        "posts_dir": "./scheduled_posts",
+        "delete_after_upload": true,
+        "caption": "Cool caption.."
+      },
+      "upload_stories": {
+        "enabled": true,
+        "amount_per_day": 2,
+        "posts_dir": "/path_to_stories",
+        "delete_after_upload": true,
+        "caption": [
+            "Cool video caption..."
+        ]
+    },
+      "download_posts_from_account": {
+        "enabled": true,
+        "source_account": "instagram",
+        "amount": 5,
+        "timeout": 2
+      },
+      "dm_accounts_from_list": {
+          "enabled": true,
+          "message": [
+              "Hey! \n\n This is a cool DM!"
+            ],
+          "accounts": [
+              "username1",
+              "username2"
+          ],
+          "timeout": 60
+      }
+    }
+  ]
+}
+
