@@ -1,5 +1,3 @@
-
-
 # InstaBot
 
 Automate your instagram account management using this bot. Fill in your requirements in the config.json file and run the script! You can configure multiple accounts which will run simutanously.
@@ -10,7 +8,7 @@ Please note that using automated scripts to interact with Instagram can be again
 
 Please consider donating to support development of the project
 
-[![Buy Me a Coffee](https://img.shields.io/badge/Buy%20Me%20a-Coffee-orange)](https://www.buymeacoffee.com/birdhouses) `<br>`
+[![buy me a coffee](https://res.cloudinary.com/customzone-app/image/upload/c_pad,w_200/v1712840190/bmc-button_wl78gx.png)](https://www.buymeacoffee.com/akashsunile)
 
 ## Current Features
 
